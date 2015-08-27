@@ -1,4 +1,63 @@
-"% CS101-D24\n% 8/27/2015 - LEC 1\n% KWANG KIM\n\n\n<style type=\"text/css\">\np { text-align: left; }\n</style>\n\n\n## Survey\n\nPlease, write the survey.\n\n-----------\n\n## CS101-D1,D24 \n\n- ALGORITHMIC PROBLEM SOLVING I\n\n- Instructor: KWANG HYUN KIM([kkim@qcc.cuny.edu](mailto:kkim@qcc.cuny.edu?subject=CS101-D24 Question))\n- Departmental syllabi\n[http://www.qcc.cuny.edu/mathCS/syllabi/MA119.pdf](http://www.qcc.cuny.edu/mathCS/syllabi/MA119.pdf)\n\n------------\n\n## Grading\n\n**No make up quiz, project, exam**.\n\n- a. Class exam(30%):TEST 1, TEST2, TEST3\n\n- b. LAB(45%)\n - LAB QUIZ(6%): 3 quizzes (+ 1 Extra quiz)\n - LAB TEST(27%): 3 coding tests.\n - LAB PROJECT(12%): 3 personal projects + 1 team project\n\n- c. **Final**(25%)- regular Test(13%) + Coding test(12%)\n\n\n**I will replace one of lowest scores of class TEST1, 2, 3 if final regular score is higher.**\n\n**I will replace one of lowest scores of coding TEST 1, 2, 3 if final coding score is higher.**\n\n------------\n\n## Communication\n\nWe use a **piazza.com** as a class discussion board. Check your **tigermail** to find an invitation email. Or you can register manually with tigermail as id.\nSignup link: [http://piazza.com/queensborough_cc/fall2015/cs101d24](piazza.com/queensborough_cc/fall2015/cs101d24)\nUse **cs101d24** as a Access code.\n\n---------------\n\n## Goal\n\nIn this course, we will study\n\n> - How to identify problems\n> - How to make algorithms to solve the problems\n> - How to implement algorithms using c++\n\n-----------\n"
+"% CS101-D24\n% 8/27/2015 - LEC 1\n% KWANG KIM\n\n\n<style type=\"text/css\">\np { text-align: left; }\n</style>\n\n\n## Survey\n\nPlease, write the survey.\n\n-----------\n\n## CS101-D1,D24 \n\n- ALGORITHMIC PROBLEM SOLVING I\n\n- Instructor: KWANG HYUN KIM([kkim@qcc.cuny.edu](mailto:kkim@qcc.cuny.edu?subject=CS101-D24 Question))\n- Departmental syllabi\n[http://www.qcc.cuny.edu/mathCS/syllabi/MA119.pdf](http://www.qcc.cuny.edu/mathCS/syllabi/MA119.pdf)\n\n- **TEXT**: C++ Without Fear, 2nd, ISBN:978-0-13-267326-6, By B. Overland.\n------------\n\n## Grading\n\n**No make up quiz, project, exam**.\n\n- a. Class exam(30%):TEST 1, TEST2, TEST3\n\n- b. LAB(45%)\n - LAB QUIZ(6%): 3 quizzes (+ 1 Extra quiz)\n - LAB TEST(27%): 3 coding tests.\n - LAB PROJECT(12%): 3 personal projects + 1 team project\n\n- c. **Final**(25%)- regular Test(13%) + Coding test(12%)\n\n\n**I will replace one of lowest scores of class TEST1, 2, 3 if final regular score is higher.**\n\n**I will replace one of lowest scores of coding TEST 1, 2, 3 if final coding score is higher.**\n\n------------\n\n## Communication\n\n- **piazza.com** as a class discussion board. \n- Check your **tigermail** for invitation email. \n- [**c9.io**](https://c9.io) for online compiler\n- [**github.com**](http://www.github.com) for project submission.\n---------------\n\n## Class meets\n- Mon 10:10AM - 12:00PM at **S-219** (LAB)\n- Tue 10:10AM - 11:00PM at **S-213**\n- Thr 10:10AM - 12:00PM at **S-213**\n\n-----------------\n\n## Office hours\n- Mon, 09:05AM-10:05AM at S-320A\n- Tue, 11:05AM-12:05PM at S-219 (LAB)\n- Tue, 12:05PM-01:05PM at S-320A\n\n---------------\n\n## Recommandation\n- Programming: Principles and Practice Using C++ (2nd Edition) by B Stroustrup. ISBN: 978-0321992789\n- C++ Primer. 5th Edition by S Lippman. ISBN: 978-0321714114\n- The C++ Programming Language (4th Edition) by B Stroustrup.   ISBN 978-0321563842\n\n-----------------\n\n### **Attendance Policy**\n\n> - Unexcused absences beyond 15% of course hours(**6 days**)=> F.\n\n> - To excuse your absences, a **proper document with early notice** is necessary.\n\n> - Two late marks count as one absence\n\n> - If students leave early without early notice, I will consider as one late mark.\n\n----------------\n\n## No SNS and phone policy\n\n- Please, silence your cellphone and other electronic devices. \n- Except early notice, do not use SNS or phone. \n-**For the quiz and test, students should turn off their electronic devices and put them in their bag to avoid a failing grade for the quiz, or test.**\n\n-----\n\n\n## Goal\n\nIn this course, we will study\n\n> - How to identify problems\n> - How to make algorithms to solve the problems\n> - How to implement algorithms using c++\n\n-----------\n"
+{"patch":[[[[0,"vices. \n"],[1,"\n"],[0,"- Except"]],2262,2262,16,17]],"time":1440647812295}
+{"patch":[[[[0," phone. "],[-1,"\n-"],[0,"**For th"]],2311,2311,18,16]],"time":1440647809295}
+{"patch":[[[[0,"policy\n\n"],[-1,"- "],[0,"Please, "]],2198,2198,18,16]],"time":1440647806295}
+{"patch":[[[[0,"vices. \n"],[-1,"\n- "],[0,"Except e"]],2260,2260,19,16]],"time":1440647803291}
+{"patch":[[[[0,"evices. "],[-1,"\n"],[0,"Except e"]],2259,2259,17,16]],"time":1440647800291}
+{"patch":[[[[0,"**\n\n"],[-1,"-----\n\n\n"],[0,"## G"]],2461,2461,16,8]],"time":1440647796527}
+{"patch":[[[[0,"est.**\n\n"],[1,"=\n"],[0,"## Goal\n"]],2457,2457,16,18]],"time":1440647793523}
+{"patch":[[[[0,"----\n\n##"],[1,"#"],[0," No SNS "]],2172,2172,16,17],[[[0,"t.**"],[-1,"\n\n="],[0,"\n## "]],2460,2460,11,8]],"time":1440647790519}
+{"patch":[[[[0,"--\n\n"],[-1,"### No SNS and phone policy\n\nPlease, silence your cellphone and other electronic devices. Except early notice, do not use SNS or phone. **For the quiz and test, students should turn off their electronic devices and put them in their bag to avoid a failing grade for the quiz, or test.**"],[0,"\n## "]],2174,2174,294,8]],"time":1440647787483}
+{"patch":[[[[0," mark.\n\n"],[-1,"----------------\n\n"],[0,"\n## Goal"]],2152,2152,34,16]],"time":1440647784479}
+{"patch":[[[[0," mark.\n\n"],[-1,"\n"],[0,"## Goal\n"]],2152,2152,17,16]],"time":1440647781479}
+{"patch":[[[[0,"ry.\n\n> -"],[-1," "],[0,"Two late"]],2029,2029,17,16],[[[0,"nce\n\n> -"],[1,"."],[0," If stud"]],2069,2069,16,17]],"time":1440647767375}
+{"patch":[[[[0,"bsence\n\n"],[-1,"> -"],[0,". If stu"]],2066,2066,19,16]],"time":1440647764371}
+{"patch":[[[[0," absence"],[-1,"\n\n"],[0,". If stu"]],2064,2064,18,16]],"time":1440647761363}
+{"patch":[[[[0,"ssary.\n\n"],[-1,"> -"],[0,"Two late"]],2026,2026,19,16]],"time":1440647758359}
+{"patch":[[[[0,"=> F.\n\n>"],[-1," -"],[0," To excu"]],1943,1943,18,16]],"time":1440647755355}
+{"patch":[[[[0,"cessary."],[-1,"\n\n"],[1," "],[0,"Two late"]],2022,2022,18,17]],"time":1440647752359}
+{"patch":[[[[0,")=> F.\n\n"],[-1,"> "],[0,"To excus"]],1942,1942,18,16]],"time":1440647749355}
+{"patch":[[[[0,"*)=> F.\n"],[-1,"\n"],[0,"To excus"]],1941,1941,17,16]],"time":1440647746355}
+{"patch":[[[[0,"licy**\n\n"],[-1,"> "],[0,"- Unexcu"]],1874,1874,18,16]],"time":1440647742463}
+{"patch":[[[[0,"**)="],[-1,"> F."],[0,"\nTo "]],1938,1938,12,8]],"time":1440647739459}
+{"patch":[[[[0,"s**)"],[-1,"=\n"],[0,"To e"]],1937,1937,10,8]],"time":1440647736459}
+{"patch":[[[[0," days**)"],[1," result in a failing grade for the course. "],[0,"To excus"]],1933,1933,16,59]],"time":1440647733455}
+{"patch":[[[[0,"icy**\n\n-"],[-1," "],[0,"Unexcuse"]],1875,1875,17,16]],"time":1440647730455}
+{"patch":[[[[0,"licy**\n\n"],[-1,"-"],[0,"Unexcuse"]],1874,1874,17,16]],"time":1440647727459}
+{"patch":[[[[0,"--\n\n"],[-1,"### **Attendance Policy**\n\nUnexcused absences beyond 15% of course hours(**6 days**) result in a failing grade for the course. To excuse your absences, a **proper document with early notice** is necessary. Two late marks count as one absence. If students leave early without early notice, I will consider as one late mark.\n"],[0,"\n## "]],1851,1851,331,8]],"time":1440647723683}
+{"patch":[[[[0,"------\n\n"],[-1,"\n"],[0,"## Goal\n"]],1847,1847,17,16]],"time":1440647720647}
+{"patch":[[[[0,"----\n\n##"],[1,"#"],[0," Recomma"]],1565,1565,16,17]],"time":1440647710895}
+{"patch":[[[[0,"563842\n\n"],[-1,"-----------------\n"],[0,"\n## Goal"]],1829,1829,34,16]],"time":1440647707891}
+{"patch":[[[[0,"--\n\n"],[-1,"### Recommandation\n- Programming: Principles and Practice Using C++ (2nd Edition) by B Stroustrup. ISBN: 978-0321992789\n- C++ Primer. 5th Edition by S Lippman. ISBN: 978-0321714114\n- The C++ Programming Language (4th Edition) by B Stroustrup.   ISBN 978-0321563842\n\n"],[0,"\n## "]],1567,1567,274,8]],"time":1440647704887}
+{"patch":[[[[0,"------\n\n"],[-1,"\n"],[0,"## Goal\n"]],1563,1563,17,16]],"time":1440647698855}
+{"patch":[[[[0,"f)\n\n"],[-1,"- **TEXT**: C++ Without Fear, 2nd, ISBN:978-0-13-267326-6, By B. Overland."],[0,"\n---"]],431,431,82,8]],"time":1440647685315}
+{"patch":[[[[0,"9.pdf)\n\n"],[-1,"\n"],[0,"--------"]],427,427,17,16]],"time":1440647682323}
+{"patch":[[[[0,"------------"],[-1,"--"],[0,"\n\n## Goal\n\nI"]],1480,1480,26,24]],"time":1440647673867}
+{"patch":[[[[0,"S-320A\n\n"],[-1,"-------------\n"],[0,"\n## Goal"]],1471,1471,30,16]],"time":1440647670859}
+{"patch":[[[[0,"--\n\n"],[-1,"## Office hours\n- Mon, 09:05AM-10:05AM at S-320A\n- Tue, 11:05AM-12:05PM at S-219 (LAB)\n- Tue, 12:05PM-01:05PM at S-320A\n\n"],[0,"\n## "]],1354,1354,129,8]],"time":1440647667863}
+{"patch":[[[[0,"------\n\n"],[-1,"\n"],[0,"## Goal\n"]],1350,1350,17,16]],"time":1440647664836}
+{"patch":[[[[0,"13**\n\n------"],[-1,"-----------"],[0,"\n\n## Goal\n\nI"]],1333,1333,35,24]],"time":1440647656067}
+{"patch":[[[[0,"-213**\n\n"],[-1,"------\n\n"],[0,"## Goal\n"]],1331,1331,24,16]],"time":1440647653071}
+{"patch":[[[[0,"-213**\n\n"],[1,"\n"],[0,"## Goal\n"]],1331,1331,16,17]],"time":1440647650067}
+{"patch":[[[[0,"--\n\n"],[-1,"## Class meets\n- Mon 10:10AM - 12:00PM at **S-219** (LAB)\n- Tue 10:10AM - 11:00PM at **S-213**\n- Thr 10:10AM - 12:00PM at **S-213**\n"],[0,"\n\n##"]],1202,1202,140,8]],"time":1440647647063}
+{"patch":[[[[0,"-----\n\n\n"],[-1,"\n"],[0,"## Goal\n"]],1199,1199,17,16]],"time":1440647641759}
+{"patch":[[[[0,"------\n\n"],[-1,"\n"],[0,"## Goal\n"]],1198,1198,17,16]],"time":1440647638759}
+{"patch":[[[[0,"mail. \n-"],[1," "],[0," [**c9.i"]],1067,1067,16,17]],"time":1440647631611}
+{"patch":[[[[0,"r\n- "],[-1,"[**github.com**](http://www.github.com) for project submission."],[0,"\n---"]],1122,1122,71,8]],"time":1440647628611}
+{"patch":[[[[0,"ler\n"],[-1,"- \n"],[0,"----"]],1120,1120,11,8]],"time":1440647621047}
+{"patch":[[[[0," \n- "],[-1," [**c9.io**](https://c9.io) for online compiler"],[0,"\n---"]],1072,1072,55,8]],"time":1440647618004}
+{"patch":[[[[0,"mail. \n-"],[-1," "],[0,"\n-------"]],1067,1067,17,16]],"time":1440647604771}
+{"patch":[[[[0,"l** for "],[1," "],[0,"invitati"]],1047,1047,16,17]],"time":1440647601767}
+{"patch":[[[[0,"l** "],[-1,"for "],[1,"to find an"],[0," inv"]],1047,1047,12,18]],"time":1440647598763}
+{"patch":[[[[0,"email. \n"],[-1,"-"],[0,"\n-------"]],1073,1073,17,16]],"time":1440647595759}
+{"patch":[[[[0,"email. \n"],[-1,"\n"],[0,"--------"]],1073,1073,17,16]],"time":1440647592759}
+{"patch":[[[[0," email. "],[1,"Or you can register manually with tigermail as id.\nSignup link: [http://piazza.com/queensborough_cc/fall2015/cs101d24](piazza.com/queensborough_cc/fall2015/cs101d24)\nUse **cs101d24** as a Access code.\n"],[0,"\n-------"]],1072,1072,16,217]],"time":1440647589751}
+{"patch":[[[[0,"oard. \n-"],[-1," "],[0,"Check yo"]],1017,1017,17,16]],"time":1440647586751}
+{"patch":[[[[0," board. "],[-1,"\n"],[0,"-Check y"]],1015,1015,17,16]],"time":1440647583743}
+{"patch":[[[[0,"rd. "],[-1,"-"],[0,"C"],[1,"-"],[0,"heck"]],1019,1019,10,10]],"time":1440647580743}
+{"patch":[[[[0,"board. C"],[-1,"-"],[0,"heck you"]],1016,1016,17,16]],"time":1440647577743}
+{"patch":[[[[0,"cation\n\n"],[-1,"- "],[0,"**piazza"]],969,969,18,16]],"time":1440647570163}
+{"patch":[[[[0,"cation\n\n"],[1,"We use a "],[0,"**piazza"]],969,969,16,25]],"time":1440647567167}
 {"patch":[[[[0,"-D1,D24 "],[1,"-"],[0,"\n\n- ALGO"]],164,164,16,17]],"time":1440647517331}
 {"patch":[[[[0,"1,D24 -\n"],[-1,"\n- "],[0,"ALGORITH"]],166,166,19,16]],"time":1440647501179}
 {"patch":[[[[0,"D1,D24 -"],[-1,"\n"],[1," "],[0,"ALGORITH"]],165,165,17,17]],"time":1440647498187}
