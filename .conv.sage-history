@@ -1,4 +1,6 @@
-"#!/bin/sh\n# http://stackoverflow.com/a/10323583/5225593\n\n## find . -name \\../MD/*.md -type f -exec pandoc -t reveal.js  {} -o ../LEC/{}.html\\;\n\npandoc -t revealjs  MD/1.md -s -o LEC/1.html\ngit add .\ngit commit -m \"update\"\ngit push\n "
+"#!/bin/sh\n# http://stackoverflow.com/a/10323583/5225593\n\n## find . -name \\../MD/*.md -type f -exec pandoc -t reveal.js  {} -o ../LEC/{}.html\\;\n\npandoc -t revealjs -s  MD/1.md -o LEC/1.html\ngit add .\ngit commit -m \"update\"\ngit push\n "
+{"patch":[[[[0,"ljs "],[-1,"-s "],[0," MD/1.md"],[1," -"],[0," -o "]],159,159,19,18]],"time":1440644796531}
+{"patch":[[[[0,"D/1.md -"],[1,"s"],[0," -o LEC/"]],165,165,16,17]],"time":1440644793569}
 {"patch":[[[[0,"d -s -o "],[1,".."],[0,"LEC/1.ht"]],170,170,16,18]],"time":1440644707361}
 {"patch":[[[[0,"-s -o .."],[1,"/"],[0,"LEC/1.ht"]],172,172,16,17]],"time":1440644704359}
 {"patch":[[[[0,"vealjs  "],[-1,"MD"],[0,"/1.md -s"]],156,156,18,16]],"time":1440644700408}
