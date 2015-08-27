@@ -1,4 +1,9 @@
-"% CS101 LEC 1\n% KWANG KIM\n% 8/27/2015\n\n<style type=\"text/css\">\np { text-align: left; }\n</style>\n\n\n## Hello\n\nIn this course, we will study\n\n> - How to identify problems\n> - How to make algorithms to solve the problem\n> - How to implement algorithms using c++\n\n--------\n\n## Survey\n\nPlease, write the survey.\n\n\n"
+"% CS101-D24\n% LEC 1\n% KWANG KIM\n% 8/27/2015\n\n\n\n## Hello\n\nIn this course, we will study\n\n> - How to identify problems\n> - How to make algorithms to solve the problem\n> - How to implement algorithms using c++\n\n--------\n\n## Survey\n\nPlease, write the survey.\n\n\n"
+{"patch":[[[[0,"7/2015\n\n"],[1,"<style type=\"text/css\">\np { text-align: left; }\n</style>\n"],[0,"\n\n## Hel"]],37,37,16,73]],"time":1440646635549}
+{"patch":[[[[0,"101-D24\n"],[-1,"% "],[0,"LEC 1\n% "]],4,4,18,16]],"time":1440646624173}
+{"patch":[[[[0,"S101-D24"],[-1,"\n"],[1," "],[0,"LEC 1\n% "]],3,3,17,17]],"time":1440646621211}
+{"patch":[[[[0,"101-"],[-1,"D24"],[0," LEC"]],4,4,11,8]],"time":1440646614838}
+{"patch":[[[[0,"% CS101"],[-1,"-"],[0," LEC 1\n%"]],0,0,16,15]],"time":1440646611842}
 {"patch":[[[[0,"problem\n"],[-1,"> "],[0,"- How to"]],208,208,18,16]],"time":1440646519099}
 {"patch":[[[[0,"study\n\n>"],[-1," "],[0,"- How to"]],132,132,17,16],[[[0,"ems\n"],[-1,"> "],[0,"- Ho"]],163,163,10,8]],"time":1440646516092}
 {"patch":[[[[0," study\n\n"],[-1,">"],[0,"- How to"]],131,131,17,16],[[[0,"roblems\n"],[1,"\n"],[0,"- How to"]],158,158,16,17]],"time":1440646513094}
