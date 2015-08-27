@@ -1,0 +1,10 @@
+#!/bin/sh
+# http://stackoverflow.com/a/10323583/5225593
+
+## find . -name \../MD/*.md -type f -exec pandoc -t reveal.js  {} -o ../LEC/{}.html\;
+
+pandoc -t revealjs  ../MD/1.md -o ../LEC/1.html
+git add .
+git commit -m "update"
+git push
+ 
