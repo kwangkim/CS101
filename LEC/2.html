@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <title>MA441-Lecture 2</title>
+  <title>cs101-Lecture 2</title>
   <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
   </script>
@@ -740,151 +740,87 @@ code {
 <div class="reveal">
     <div class="slides">
         <section>
-    <h2 id="ma441-lec-2-the-limit-of-a-function-i">MA441- LEC 2 - The limit of a function I</h2>
+    <h2 id="cs101-lec-2">CS101- LEC 2</h2>
 <h3 id="goal">Goal</h3>
 <ul>
-<li>Understanding the definition of function</li>
-<li>Understanding the verval definition of the limit of a function</li>
-<li>Making a table for a function</li>
-<li>importance of the graph for the limit. (Table is not enough.)</li>
+<li>Piazza.com</li>
+<li>c9.io</li>
+<li>github.com</li>
 </ul>
 
   </section>
   <section>
-    <h3 id="-function-http-en-wikipedia-org-wiki-function_-28mathematics-29-"><a href="http://en.wikipedia.org/wiki/Function_%28mathematics%29">function</a></h3>
-<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Function_machine2.svg/220px-Function_machine2.svg.png" alt="Function"></p>
-<p><strong>Function</strong> is a relation between a set of inputs (X) and a set of possible outputs (Y) with the following property.</p>
-<blockquote>
-<p>For each x in X, there exists the unique y in Y</p>
-</blockquote>
-<p>Therefore, the limit of a <strong>function</strong> is about the relation between <strong>x&#39;</strong>s and <strong>y&#39;s</strong>.</p>
-
-  </section>
-  <section>
-    <h3 id="tangent-line-of-y-frac-x-2-4-at-x_0-2-">Tangent line of \(y=\frac{x^2}{4}\) at \( x_0=2\)</h3>
-<p>The slope of secant line of \( (x_0,f(x_0))\) and \((x_0+\Delta x,f(x_0+\Delta x))\)  is given by</p>
-<p><br/></p>
-<p>\[
-\frac{\Delta y}{\Delta x}=\frac{f(x_0 + \Delta x) - f(x_0)}{x_0+\Delta x-x_0}=\frac{f(\Delta x+x_0)-f(x_0)}{\Delta x}
-\]</p>
-<p>For example, if \(\Delta x=1\), then</p>
-<p><br/></p>
-<p>\[
-\frac{\Delta y}{\Delta x}=\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}
-\]</p>
-<p>\[
-=\frac{f(2+1)-f(2)}{1}=\frac{2.25-1}{1}=1.25
-\]</p>
-
-  </section>
-  <section>
-    <h4 id="table-of-a-slope-of-secant-line">table of a slope of secant line</h4>
-<p><div class="row text-center"></p>
-<p><table class="table table-bordered text-center large md-col-2"></p>
-<p><tr></p>
-<p><th> \( \Delta x \)</th><th>1</th><th>0.5</th><th>0.01</th><th>0.001</th><th>0.0001</th><th>-0.0001</th>
-</tr></p>
-<p><tr></p>
-<p><td> slope of secant line</td><td>1.25</td><td>1.125</td><td>1.0025</td><td>1.0025</td><td><strong>1.00003</strong></td><td><strong>0.99998</strong></td>
-</tr>
-</table></p>
-<div>
-
-<p>From the table, we can <strong>guess</strong> (but we cannot confirm yet),</p>
-<p><br/></p>
-<p>\[
-0.99998 \leq \lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x} \leq 1.00003 
-\]</p>
-
-  </section>
-  <section>
-    <h4 id="graph-">graph.</h4>
-<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/611503/width/800/height/547/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="547px" style="border:0px;"> </iframe>
-  </section>
-  <section>
-    <h3 id="conclusion">Conclusion</h3>
-<p>From the table and the graph, we expect that</p>
-<p>\[
-1=\lim_{\Delta x \to 0}\frac{\Delta y}{\Delta x}=the~slope~of~tagent~line~at~x_0=1
-\]
-<br/></p>
-<p>It means we can make the value<strong>s</strong> of \(\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}\)  arbitrarily to close to a certain number
- by choosing very small \(\Delta x \neq 0\).</p>
-
-  </section>
-  <section>
-    <h3 id="example-1">Example 1</h3>
-<p>Let \( f(x)=x^2 \). Then \(\lim_{x\to 2} f(x)=?\)</p>
-<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/616753/width/800/height/641/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="641px" style="border:0px;"> </iframe>
-  </section>
-  <section>
-    <h4 id="result">result</h4>
-<p>From the graph, we can conclude</p>
-<p>\[
-\lim_{x\to 2} f(x)=4
-\]</p>
-
-  </section>
-  <section>
-    <h4 id="definition-of-the-limit-of-a-function-y-f-x-at-x-x_0-">definition of the limit of a function \(y=f(x)\) at \(x=x_0\).</h4>
-<blockquote>
-<p>Suppose f(x) defined when x is near the number a except \(x=x_0\). (This means that f is defined on some open interval that contains \(x_0\), except possibly at \(x_0\) itself.) Then we write</p>
-</blockquote>
-<p>\[\lim_{x\to x_0}f(x)=L\]</p>
-<blockquote>
-<p>and say &quot;the limit of f(x), as x approaches \(x_0\), equals L&quot;.</p>
-</blockquote>
-<p>if we make the value<strong>s</strong> of f(x) arbitrarily close L by taking all <strong>x&#39;s</strong> to be sufficiently close to \(x_0\) but <strong>not equal to \(x_0\)</strong>.</p>
-
-  </section>
-  <section>
-    <h3 id="facts">Facts</h3>
+    <h3 id="communication">Communication</h3>
+<p>We will use 3 separate websites for this course. You need to sign-up using your <a href="https://tigermail.qcc.cuny.edu/"><strong>tigermail</strong></a> and <strong>username</strong> of your tigermail as your username. </p>
+<p>(Ex. hello12 from hello12@tigermail.qcc.cuny.edu.)</p>
 <ul>
-<li><p>Do not forget, \(x\neq x_0\).</p>
+<li><p><a href="http://www.piazza.com"><strong><a href="http://www.piazza.com">http://www.piazza.com</a></strong></a> - Q&amp;A discussion board with course materials including project, quiz and test. Download the app from <a href="https://itunes.apple.com/us/app/piazza/id453142230?mt=8"><strong>app store</strong></a> or <a href="https://play.google.com/store/apps/details?id=com.piazza.android&amp;hl=en"><strong>playstore</strong></a>.</p>
+<ul>
+<li>Signup link: <a href="piazza.com/queensborough_cc/fall2015/cs101d24"><a href="http://piazza.com/queensborough_cc/fall2015/cs101d24">http://piazza.com/queensborough_cc/fall2015/cs101d24</a></a>  with access code <strong>cs101d24</strong> or check your tigermail.</li>
+</ul>
 </li>
-<li><p>\(f(x_0) = \lim_{x\to x_0}f(x) \)is not true in general.<br>Actually, \(f(x_0)\) does not need to be defined to define the limit  of \(f(x)\) at \(x=x_0\).</p>
+<li><p><a href="https://c9.io/"><strong><a href="https://c9.io/">https://c9.io/</a></strong></a> - Tools for development and collaboration.</p>
 </li>
+</ul>
+<ul>
+<li><a href="http://www.github.com"><strong><a href="http://www.github.com">http://www.github.com</a></strong></a> - Source management system for projects.</li>
 </ul>
 
   </section>
   <section>
-    <h3 id="3-basic-cases">3 basic cases</h3>
-<table>
-<tr>
-<td> 1. Continuity</td>
-<td> 2. Hole and \(f(x_0)\) is defined. </td>
-<td> 3. Hole and \(f(x_0)\) is undefined.</td>
-</tr>
-<tr>
-<td>
-<img src="https://cloud.githubusercontent.com/assets/10469752/9572855/e72baffc-4f82-11e5-8a56-d19264205896.png" alt="continuous">
-</td>
-<td>
-<img src="https://cloud.githubusercontent.com/assets/10469752/9572856/ee8821a4-4f82-11e5-9dc4-355574c93738.png" alt="hole-defined">
-</td>
-<td>
-<img src="https://cloud.githubusercontent.com/assets/10469752/9572858/f14e0bec-4f82-11e5-92b4-eb95348d034e.png" alt="hole-undefined">
-</td>
-</tr>
-</table>
-  </section>
-  <section>
-    <h3 id="example-2">Example 2</h3>
-<p>Let \(f(x)=\frac{x^2-4}{x-2}\). \(\lim_{x\to 2}f(x)=?\)</p>
-<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/616797/width/568/height/625/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="568px" height="625px" style="border:0px;"> </iframe>
-  </section>
-  <section>
-    <h3 id="example-3-importance-of-graph-with-y-sin-frac-pi-x-">Example 3.  importance of graph with \(y=\sin(\frac{\pi}{x})\)</h3>
-<h4 id="make-the-table-">Make the table.</h4>
-<p>Let \(x=\frac{1}{n}\) where \(n\) is a natural number. Then </p>
-<p>\[f(\frac{1}{n})=\sin(n\pi)=0 \]</p>
-<p>So we may guess that
-\[\lim_{x\to 0} \sin(\frac{\pi}{x})=0\]</p>
+    <h3 id="git-introduction">Git introduction</h3>
+<p>Two good references</p>
+<p><a href="https://try.github.io/levels/1/challenges/1"><strong> Try git </strong></a></p>
+<p><a href="https://www.atlassian.com/git/"><strong> Git tutorial 101 </strong></a>
+<img src="https://www.atlassian.com/git/images/tutorials/advanced/resetting-checking-out-and-reverting/01.svg" alt="Main components"></p>
+<pre><code>git init</code></pre>
+<pre><code>git status</code></pre>
 
   </section>
   <section>
-    <p>But it is wrong. Actually, there is no limit at \(x=0\).</p>
-<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/616805/width/678/height/613/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="678px" height="613px" style="border:0px;"> </iframe>
+    <h3 id="-adding-a-remote-https-help-github-com-articles-adding-a-remote-"><a href="https://help.github.com/articles/adding-a-remote/">Adding a remote</a></h3>
+<pre><code>git remote add [remote name] [remote url]
+
+git remote add origin https://github.com/user/repo.git
+
+git remote -v</code></pre>
+<pre><code>git commit -m &quot; Your message&quot;</code></pre>
+<pre><code>git push -u [remote name] [branch]
+
+git push -u origin master</code></pre>
+<p><strong>-u</strong> option automatically sets uo tracking between local and remote branch. <a href="http://mislav.uniqpath.com/2010/07/git-tips/">Ref</a></p>
+
+  </section>
+  <section>
+    <h3 id="-pusing-to-a-remote-https-help-github-com-articles-pushing-to-a-remote-"><a href="https://help.github.com/articles/pushing-to-a-remote/">Pusing to a remote</a></h3>
+<p><img src="https://www.atlassian.com/git/images/tutorials/collaborating/syncing/04.svg" alt="Before/After pushing" style="height:600px"></p>
+
+  </section>
+  <section>
+    <h3 id="-pull-https-www-atlassian-com-git-tutorials-syncing-git-pull-"><a href="https://www.atlassian.com/git/tutorials/syncing/git-pull"><strong>Pull</strong></a></h3>
+<pre><code>git pull origin master</code></pre>
+<h4 id="pull-fetch-get-all-of-branches-from-the-repository-merge-https-www-atlassian-com-git-tutorials-using-branches-git-checkout-">pull=fetch( Get all of branches from the repository) + <a href="https://www.atlassian.com/git/tutorials/using-branches/git-checkout">merge</a></h4>
+
+  </section>
+  <section>
+    <h3 id="conflicts-in-merging">Conflicts in merging</h3>
+<p><img src="https://www.atlassian.com/git/images/tutorials/collaborating/using-branches/08.svg" alt="Before/After pushing" style="height:600px"></p>
+<p><strong> 3-way-merge</strong>:the two branch tips and their common ancestor.</p>
+
+  </section>
+  <section>
+    <h3 id="-merge-vs-rebasing-https-www-atlassian-com-git-tutorials-merging-vs-rebasing-"><a href="https://www.atlassian.com/git/tutorials/merging-vs-rebasing/">Merge vs Rebasing</a></h3>
+<p>Assume new commits in master is mine.
+<img src="https://www.atlassian.com/git/images/tutorials/advanced/merging-vs-rebasing/01.svg" alt="Merge/Rebasing" style="height:300px">
+<img src="https://www.atlassian.com/git/images/tutorials/getting-started/rewriting-history/02.svg" alt="Rebase" style="height:300px"></p>
+
+  </section>
+  <section>
+    <h3 id="others">others</h3>
+<h4 id="forking-official-and-others">Forking -official and others</h4>
+<h4 id="-branching-https-www-atlassian-com-git-tutorials-using-branches-"><a href="https://www.atlassian.com/git/tutorials/using-branches">branching</a></h4>
+<h4 id="-reset-checkout-revert-https-www-atlassian-com-git-tutorials-resetting-checking-out-and-reverting-"><a href="https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting">reset/checkout/revert</a></h4>
+
   </section>
   <section>
     <div class="author">
